@@ -10,10 +10,8 @@
   <g clip-path="url(#circle-clip)" transform="translate(256,256) scale(1.4) translate(-256,-256)">
     <!-- Shield -->
     <path d="M256 146 L336 186 L336 296 L256 366 L176 296 L176 186 Z" fill="none" stroke="#d4af37" stroke-width="8" stroke-linejoin="round"/>
-    <!-- Dollar sign -->
-    <path d="M256 200 L256 210 M256 320 L256 330" stroke="#d4af37" stroke-width="7" stroke-linecap="round"/>
-    <path d="M230 230 C230 218 242 210 256 210 C270 210 282 218 282 230 C282 245 256 248 256 265 C256 278 242 285 256 285 C270 285 282 278 282 265" fill="none" stroke="#d4af37" stroke-width="7" stroke-linecap="round"/>
-    <!-- Diagonal strike-through -->
-    <line x1="220" y1="310" x2="292" y2="210" stroke="#d4af37" stroke-width="7" stroke-linecap="round"/>
+    <!-- Downward arrow (short) -->
+    <line x1="256" y1="210" x2="256" y2="310" stroke="#d4af37" stroke-width="8" stroke-linecap="round"/>
+    <polyline points="226,280 256,310 286,280" fill="none" stroke="#d4af37" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 </svg>
