@@ -10,8 +10,10 @@
   <g clip-path="url(#circle-clip)" transform="translate(256,256) scale(1.4) translate(-256,-256)">
     <!-- Shield -->
     <path d="M256 146 L336 186 L336 296 L256 366 L176 296 L176 186 Z" fill="none" stroke="#d4af37" stroke-width="8" stroke-linejoin="round"/>
-    <!-- Downward arrow (short) -->
-    <line x1="256" y1="210" x2="256" y2="310" stroke="#d4af37" stroke-width="8" stroke-linecap="round"/>
-    <polyline points="226,280 256,310 286,280" fill="none" stroke="#d4af37" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Bold F for Fiat -->
+    <path d="M228 200 L300 200 L300 220 L248 220 L248 250 L290 250 L290 270 L248 270 L248 330" fill="none" stroke="#d4af37" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Down arrow below/beside F -->
+    <line x1="300" y1="270" x2="300" y2="330" stroke="#d4af37" stroke-width="7" stroke-linecap="round"/>
+    <polyline points="282,312 300,330 318,312" fill="none" stroke="#d4af37" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 </svg>
