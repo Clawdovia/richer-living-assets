@@ -11,9 +11,9 @@
     <!-- Shield -->
     <path d="M256 146 L336 186 L336 296 L256 366 L176 296 L176 186 Z" fill="none" stroke="#d4af37" stroke-width="8" stroke-linejoin="round"/>
     <!-- Bold F for Fiat -->
-    <path d="M228 200 L300 200 L300 220 L248 220 L248 250 L290 250 L290 270 L248 270 L248 330" fill="none" stroke="#d4af37" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <!-- Down arrow below/beside F -->
-    <line x1="300" y1="270" x2="300" y2="330" stroke="#d4af37" stroke-width="7" stroke-linecap="round"/>
-    <polyline points="282,312 300,330 318,312" fill="none" stroke="#d4af37" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M224 200 L296 200 L296 220 L244 220 L244 250 L286 250 L286 270 L244 270 L244 330" fill="none" stroke="#d4af37" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Clean down arrow - right side, vertically centered -->
+    <line x1="306" y1="240" x2="306" y2="320" stroke="#d4af37" stroke-width="8" stroke-linecap="round"/>
+    <polyline points="286,300 306,320 326,300" fill="none" stroke="#d4af37" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 </svg>
