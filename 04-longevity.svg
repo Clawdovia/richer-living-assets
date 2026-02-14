@@ -5,17 +5,12 @@
       <circle cx="256" cy="256" r="240"/>
     </clipPath>
   </defs>
-  <!-- Background circle -->
   <circle cx="256" cy="256" r="240" fill="#0a1628"/>
-  <!-- Gold border ring -->
   <circle cx="256" cy="256" r="240" fill="none" stroke="#d4af37" stroke-width="4"/>
-  <!-- Icon content -->
-  <g clip-path="url(#circle-clip)">
-    
-  <!-- Heart shape -->
-  <path d="M256 330 C256 330 166 260 166 210 C166 180 186 160 216 160 C236 160 250 172 256 186 C262 172 276 160 296 160 C326 160 346 180 346 210 C346 260 256 330 256 330Z" fill="none" stroke="#d4af37" stroke-width="7"/>
-  <!-- Pulse line through heart -->
-  <polyline points="166,256 216,256 236,216 256,296 276,216 296,256 346,256" fill="none" stroke="#d4af37" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-
+  <g clip-path="url(#circle-clip)" transform="translate(256,256) scale(1.4) translate(-256,-256)">
+    <!-- Heart shape -->
+    <path d="M256 330 C256 330 166 260 166 210 C166 180 186 160 216 160 C236 160 250 172 256 186 C262 172 276 160 296 160 C326 160 346 180 346 210 C346 260 256 330 256 330Z" fill="none" stroke="#d4af37" stroke-width="7"/>
+    <!-- Pulse line -->
+    <polyline points="166,256 216,256 236,216 256,296 276,216 296,256 346,256" fill="none" stroke="#d4af37" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 </svg>

@@ -5,29 +5,24 @@
       <circle cx="256" cy="256" r="240"/>
     </clipPath>
   </defs>
-  <!-- Background circle -->
   <circle cx="256" cy="256" r="240" fill="#0a1628"/>
-  <!-- Gold border ring -->
   <circle cx="256" cy="256" r="240" fill="none" stroke="#d4af37" stroke-width="4"/>
-  <!-- Icon content -->
-  <g clip-path="url(#circle-clip)">
-    
-  <!-- Chip/brain icon -->
-  <rect x="186" y="186" width="140" height="140" rx="16" fill="none" stroke="#d4af37" stroke-width="8"/>
-  <!-- Circuit lines from chip -->
-  <line x1="206" y1="186" x2="206" y2="146" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <line x1="256" y1="186" x2="256" y2="146" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <line x1="306" y1="186" x2="306" y2="146" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <line x1="206" y1="326" x2="206" y2="366" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <line x1="256" y1="326" x2="256" y2="366" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <line x1="306" y1="326" x2="306" y2="366" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <line x1="186" y1="226" x2="146" y2="226" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <line x1="186" y1="286" x2="146" y2="286" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <line x1="326" y1="226" x2="366" y2="226" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <line x1="326" y1="286" x2="366" y2="286" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <!-- Brain circle in center -->
-  <circle cx="256" cy="256" r="30" fill="none" stroke="#d4af37" stroke-width="6"/>
-  <circle cx="256" cy="256" r="8" fill="#d4af37"/>
-
+  <g clip-path="url(#circle-clip)" transform="translate(256,256) scale(1.4) translate(-256,-256)">
+    <!-- Chip body -->
+    <rect x="186" y="186" width="140" height="140" rx="16" fill="none" stroke="#d4af37" stroke-width="7"/>
+    <!-- Circuit pins -->
+    <line x1="206" y1="186" x2="206" y2="146" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <line x1="256" y1="186" x2="256" y2="146" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <line x1="306" y1="186" x2="306" y2="146" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <line x1="206" y1="326" x2="206" y2="366" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <line x1="256" y1="326" x2="256" y2="366" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <line x1="306" y1="326" x2="306" y2="366" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <line x1="186" y1="226" x2="146" y2="226" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <line x1="186" y1="286" x2="146" y2="286" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <line x1="326" y1="226" x2="366" y2="226" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <line x1="326" y1="286" x2="366" y2="286" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <!-- Brain core -->
+    <circle cx="256" cy="256" r="30" fill="none" stroke="#d4af37" stroke-width="6"/>
+    <circle cx="256" cy="256" r="8" fill="#d4af37"/>
   </g>
 </svg>

@@ -1,117 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3200 620" width="3200" height="620">
-  <rect width="3200" height="620" fill="#ffffff"/>
-  
-  <g transform="translate(275,20) scale(0.78125)">
-    <circle cx="256" cy="256" r="240" fill="#0a1628"/>
-    <circle cx="256" cy="256" r="240" fill="none" stroke="#d4af37" stroke-width="4"/>
-      <!-- Icon content -->
-  <g clip-path="url(#circle-clip)">
-    
-  <!-- Chip/brain icon -->
-  <rect x="186" y="186" width="140" height="140" rx="16" fill="none" stroke="#d4af37" stroke-width="8"/>
-  <!-- Circuit lines from chip -->
-  <line x1="206" y1="186" x2="206" y2="146" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <line x1="256" y1="186" x2="256" y2="146" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <line x1="306" y1="186" x2="306" y2="146" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <line x1="206" y1="326" x2="206" y2="366" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <line x1="256" y1="326" x2="256" y2="366" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <line x1="306" y1="326" x2="306" y2="366" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <line x1="186" y1="226" x2="146" y2="226" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <line x1="186" y1="286" x2="146" y2="286" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <line x1="326" y1="226" x2="366" y2="226" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <line x1="326" y1="286" x2="366" y2="286" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <!-- Brain circle in center -->
-  <circle cx="256" cy="256" r="30" fill="none" stroke="#d4af37" stroke-width="6"/>
-  <circle cx="256" cy="256" r="8" fill="#d4af37"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3072 512" width="3072" height="512">
+  <defs>
+    <clipPath id="c1"><circle cx="256" cy="256" r="240"/></clipPath>
+    <clipPath id="c2"><circle cx="768" cy="256" r="240"/></clipPath>
+    <clipPath id="c3"><circle cx="1280" cy="256" r="240"/></clipPath>
+    <clipPath id="c4"><circle cx="1792" cy="256" r="240"/></clipPath>
+    <clipPath id="c5"><circle cx="2304" cy="256" r="240"/></clipPath>
+    <clipPath id="c6"><circle cx="2816" cy="256" r="240"/></clipPath>
+  </defs>
 
+  <!-- 1: Conscious Silicon -->
+  <circle cx="256" cy="256" r="240" fill="#0a1628"/>
+  <circle cx="256" cy="256" r="240" fill="none" stroke="#d4af37" stroke-width="4"/>
+  <g clip-path="url(#c1)" transform="translate(256,256) scale(1.4) translate(-256,-256)">
+    <rect x="186" y="186" width="140" height="140" rx="16" fill="none" stroke="#d4af37" stroke-width="7"/>
+    <line x1="206" y1="186" x2="206" y2="146" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <line x1="256" y1="186" x2="256" y2="146" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <line x1="306" y1="186" x2="306" y2="146" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <line x1="206" y1="326" x2="206" y2="366" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <line x1="256" y1="326" x2="256" y2="366" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <line x1="306" y1="326" x2="306" y2="366" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <line x1="186" y1="226" x2="146" y2="226" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <line x1="186" y1="286" x2="146" y2="286" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <line x1="326" y1="226" x2="366" y2="226" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <line x1="326" y1="286" x2="366" y2="286" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="256" cy="256" r="30" fill="none" stroke="#d4af37" stroke-width="6"/>
+    <circle cx="256" cy="256" r="8" fill="#d4af37"/>
   </g>
-  </g>
-  <text x="475" y="465" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#0a1628" text-anchor="middle">Conscious Silicon</text>
 
-  <g transform="translate(725,20) scale(0.78125)">
-    <circle cx="256" cy="256" r="240" fill="#0a1628"/>
-    <circle cx="256" cy="256" r="240" fill="none" stroke="#d4af37" stroke-width="4"/>
-      <!-- Icon content -->
-  <g clip-path="url(#circle-clip)">
-    
-  <!-- Diamond shape -->
-  <polygon points="256,146 346,256 256,366 166,256" fill="none" stroke="#d4af37" stroke-width="8" stroke-linejoin="round"/>
-  <!-- Upward arrow inside diamond -->
-  <line x1="256" y1="310" x2="256" y2="210" stroke="#d4af37" stroke-width="8" stroke-linecap="round"/>
-  <polyline points="226,240 256,210 286,240" fill="none" stroke="#d4af37" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-
+  <!-- 2: Long Value -->
+  <circle cx="768" cy="256" r="240" fill="#0a1628"/>
+  <circle cx="768" cy="256" r="240" fill="none" stroke="#d4af37" stroke-width="4"/>
+  <g clip-path="url(#c2)" transform="translate(768,256) scale(1.4) translate(-768,-256)">
+    <polygon points="768,146 858,256 768,366 678,256" fill="none" stroke="#d4af37" stroke-width="8" stroke-linejoin="round"/>
+    <line x1="768" y1="310" x2="768" y2="210" stroke="#d4af37" stroke-width="8" stroke-linecap="round"/>
+    <polyline points="738,240 768,210 798,240" fill="none" stroke="#d4af37" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
-  </g>
-  <text x="925" y="465" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#0a1628" text-anchor="middle">Long Value</text>
 
-  <g transform="translate(1175,20) scale(0.78125)">
-    <circle cx="256" cy="256" r="240" fill="#0a1628"/>
-    <circle cx="256" cy="256" r="240" fill="none" stroke="#d4af37" stroke-width="4"/>
-      <!-- Shield -->
-  <path d="M256 146 L336 186 L336 296 L256 366 L176 296 L176 186 Z" fill="none" stroke="#d4af37" stroke-width="8" stroke-linejoin="round"/>
-  <!-- Bitcoin B as paths -->
-  <!-- Vertical bars -->
-  <line x1="236" y1="190" x2="236" y2="210" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <line x1="270" y1="190" x2="270" y2="210" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <line x1="236" y1="320" x2="236" y2="340" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <line x1="270" y1="320" x2="270" y2="340" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-  <!-- B shape -->
-  <path d="M222 210 L275 210 C295 210 308 222 308 237 C308 250 298 258 290 260 C300 262 312 272 312 287 C312 304 298 320 275 320 L222 320 Z M242 228 L242 254 L270 254 C282 254 290 247 290 241 C290 234 282 228 270 228 Z M242 270 L242 302 L272 302 C286 302 294 294 294 286 C294 278 286 270 272 270 Z" fill="#d4af37"/>
+  <!-- 3: Short Fiat -->
+  <circle cx="1280" cy="256" r="240" fill="#0a1628"/>
+  <circle cx="1280" cy="256" r="240" fill="none" stroke="#d4af37" stroke-width="4"/>
+  <g clip-path="url(#c3)" transform="translate(1280,256) scale(1.4) translate(-1280,-256)">
+    <path d="M1280 146 L1360 186 L1360 296 L1280 366 L1200 296 L1200 186 Z" fill="none" stroke="#d4af37" stroke-width="8" stroke-linejoin="round"/>
+    <line x1="1260" y1="190" x2="1260" y2="210" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <line x1="1294" y1="190" x2="1294" y2="210" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <line x1="1260" y1="320" x2="1260" y2="340" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <line x1="1294" y1="320" x2="1294" y2="340" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
+    <path d="M1246 210 L1299 210 C1319 210 1332 222 1332 237 C1332 250 1322 258 1314 260 C1324 262 1336 272 1336 287 C1336 304 1322 320 1299 320 L1246 320 Z M1266 228 L1266 254 L1294 254 C1306 254 1314 247 1314 241 C1314 234 1306 228 1294 228 Z M1266 270 L1266 302 L1296 302 C1310 302 1318 294 1318 286 C1318 278 1310 270 1296 270 Z" fill="#d4af37"/>
   </g>
-  <text x="1375" y="465" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#0a1628" text-anchor="middle">Short Fiat</text>
 
-  <g transform="translate(1625,20) scale(0.78125)">
-    <circle cx="256" cy="256" r="240" fill="#0a1628"/>
-    <circle cx="256" cy="256" r="240" fill="none" stroke="#d4af37" stroke-width="4"/>
-      <!-- Icon content -->
-  <g clip-path="url(#circle-clip)">
-    
-  <!-- Heart shape -->
-  <path d="M256 330 C256 330 166 260 166 210 C166 180 186 160 216 160 C236 160 250 172 256 186 C262 172 276 160 296 160 C326 160 346 180 346 210 C346 260 256 330 256 330Z" fill="none" stroke="#d4af37" stroke-width="7"/>
-  <!-- Pulse line through heart -->
-  <polyline points="166,256 216,256 236,216 256,296 276,216 296,256 346,256" fill="none" stroke="#d4af37" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-
+  <!-- 4: Longevity -->
+  <circle cx="1792" cy="256" r="240" fill="#0a1628"/>
+  <circle cx="1792" cy="256" r="240" fill="none" stroke="#d4af37" stroke-width="4"/>
+  <g clip-path="url(#c4)" transform="translate(1792,256) scale(1.4) translate(-1792,-256)">
+    <path d="M1792 330 C1792 330 1702 260 1702 210 C1702 180 1722 160 1752 160 C1772 160 1786 172 1792 186 C1798 172 1812 160 1832 160 C1862 160 1882 180 1882 210 C1882 260 1792 330 1792 330Z" fill="none" stroke="#d4af37" stroke-width="7"/>
+    <polyline points="1702,256 1752,256 1772,216 1792,296 1812,216 1832,256 1882,256" fill="none" stroke="#d4af37" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
-  </g>
-  <text x="1825" y="465" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#0a1628" text-anchor="middle">Longevity</text>
 
-  <g transform="translate(2075,20) scale(0.78125)">
-    <circle cx="256" cy="256" r="240" fill="#0a1628"/>
-    <circle cx="256" cy="256" r="240" fill="none" stroke="#d4af37" stroke-width="4"/>
-      <!-- Icon content -->
-  <g clip-path="url(#circle-clip)">
-    
-  <!-- Gear outer -->
-  <path d="M256 146 L274 170 L306 162 L314 194 L346 202 L338 234 L362 256 L338 278 L346 310 L314 318 L306 350 L274 342 L256 366 L238 342 L206 350 L198 318 L166 310 L174 278 L150 256 L174 234 L166 202 L198 194 L206 162 L238 170 Z" fill="none" stroke="#d4af37" stroke-width="6" stroke-linejoin="round"/>
-  <!-- Inner circle -->
-  <circle cx="256" cy="256" r="50" fill="none" stroke="#d4af37" stroke-width="6"/>
-  <!-- Lightning bolt in center -->
-  <polygon points="266,216 246,252 262,252 246,296 270,252 254,252" fill="#d4af37"/>
-
+  <!-- 5: Income Engines -->
+  <circle cx="2304" cy="256" r="240" fill="#0a1628"/>
+  <circle cx="2304" cy="256" r="240" fill="none" stroke="#d4af37" stroke-width="4"/>
+  <g clip-path="url(#c5)" transform="translate(2304,256) scale(1.4) translate(-2304,-256)">
+    <path d="M2304 146 L2322 170 L2354 162 L2362 194 L2394 202 L2386 234 L2410 256 L2386 278 L2394 310 L2362 318 L2354 350 L2322 342 L2304 366 L2286 342 L2254 350 L2246 318 L2214 310 L2222 278 L2198 256 L2222 234 L2214 202 L2246 194 L2254 162 L2286 170 Z" fill="none" stroke="#d4af37" stroke-width="6" stroke-linejoin="round"/>
+    <circle cx="2304" cy="256" r="50" fill="none" stroke="#d4af37" stroke-width="6"/>
+    <polygon points="2314,216 2294,252 2310,252 2294,296 2318,252 2302,252" fill="#d4af37"/>
   </g>
-  </g>
-  <text x="2275" y="465" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#0a1628" text-anchor="middle">Income Engines</text>
 
-  <g transform="translate(2525,20) scale(0.78125)">
-    <circle cx="256" cy="256" r="240" fill="#0a1628"/>
-    <circle cx="256" cy="256" r="240" fill="none" stroke="#d4af37" stroke-width="4"/>
-      <!-- Icon content -->
-  <g clip-path="url(#circle-clip)">
-    
-  <!-- Globe circle -->
-  <circle cx="256" cy="256" r="100" fill="none" stroke="#d4af37" stroke-width="7"/>
-  <!-- Horizontal line -->
-  <line x1="156" y1="256" x2="356" y2="256" stroke="#d4af37" stroke-width="4"/>
-  <!-- Vertical meridian -->
-  <!-- Latitude lines -->
-  <ellipse cx="256" cy="216" rx="85" ry="12" fill="none" stroke="#d4af37" stroke-width="3"/>
-  <ellipse cx="256" cy="296" rx="85" ry="12" fill="none" stroke="#d4af37" stroke-width="3"/>
-  <!-- Compass point / pin -->
-  <circle cx="300" cy="220" r="10" fill="#d4af37"/>
-
+  <!-- 6: Geo-Arbitrage -->
+  <circle cx="2816" cy="256" r="240" fill="#0a1628"/>
+  <circle cx="2816" cy="256" r="240" fill="none" stroke="#d4af37" stroke-width="4"/>
+  <g clip-path="url(#c6)" transform="translate(2816,256) scale(1.4) translate(-2816,-256)">
+    <circle cx="2816" cy="256" r="100" fill="none" stroke="#d4af37" stroke-width="7"/>
+    <line x1="2716" y1="256" x2="2916" y2="256" stroke="#d4af37" stroke-width="4"/>
+    <ellipse cx="2816" cy="256" rx="50" ry="100" fill="none" stroke="#d4af37" stroke-width="4"/>
+    <ellipse cx="2816" cy="216" rx="85" ry="12" fill="none" stroke="#d4af37" stroke-width="3"/>
+    <ellipse cx="2816" cy="296" rx="85" ry="12" fill="none" stroke="#d4af37" stroke-width="3"/>
+    <circle cx="2860" cy="220" r="10" fill="#d4af37"/>
   </g>
-  </g>
-  <text x="2725" y="465" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#0a1628" text-anchor="middle">Geo-Arbitrage</text>
-
 </svg>

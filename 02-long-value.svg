@@ -5,18 +5,13 @@
       <circle cx="256" cy="256" r="240"/>
     </clipPath>
   </defs>
-  <!-- Background circle -->
   <circle cx="256" cy="256" r="240" fill="#0a1628"/>
-  <!-- Gold border ring -->
   <circle cx="256" cy="256" r="240" fill="none" stroke="#d4af37" stroke-width="4"/>
-  <!-- Icon content -->
-  <g clip-path="url(#circle-clip)">
-    
-  <!-- Diamond shape -->
-  <polygon points="256,146 346,256 256,366 166,256" fill="none" stroke="#d4af37" stroke-width="8" stroke-linejoin="round"/>
-  <!-- Upward arrow inside diamond -->
-  <line x1="256" y1="310" x2="256" y2="210" stroke="#d4af37" stroke-width="8" stroke-linecap="round"/>
-  <polyline points="226,240 256,210 286,240" fill="none" stroke="#d4af37" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-
+  <g clip-path="url(#circle-clip)" transform="translate(256,256) scale(1.4) translate(-256,-256)">
+    <!-- Diamond shape -->
+    <polygon points="256,146 346,256 256,366 166,256" fill="none" stroke="#d4af37" stroke-width="8" stroke-linejoin="round"/>
+    <!-- Upward arrow -->
+    <line x1="256" y1="310" x2="256" y2="210" stroke="#d4af37" stroke-width="8" stroke-linecap="round"/>
+    <polyline points="226,240 256,210 286,240" fill="none" stroke="#d4af37" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 </svg>
