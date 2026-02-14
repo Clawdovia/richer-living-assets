@@ -10,12 +10,10 @@
   <g clip-path="url(#circle-clip)" transform="translate(256,256) scale(1.4) translate(-256,-256)">
     <!-- Shield -->
     <path d="M256 146 L336 186 L336 296 L256 366 L176 296 L176 186 Z" fill="none" stroke="#d4af37" stroke-width="8" stroke-linejoin="round"/>
-    <!-- Bitcoin B vertical bars -->
-    <line x1="236" y1="190" x2="236" y2="210" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-    <line x1="270" y1="190" x2="270" y2="210" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-    <line x1="236" y1="320" x2="236" y2="340" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-    <line x1="270" y1="320" x2="270" y2="340" stroke="#d4af37" stroke-width="6" stroke-linecap="round"/>
-    <!-- B shape -->
-    <path d="M222 210 L275 210 C295 210 308 222 308 237 C308 250 298 258 290 260 C300 262 312 272 312 287 C312 304 298 320 275 320 L222 320 Z M242 228 L242 254 L270 254 C282 254 290 247 290 241 C290 234 282 228 270 228 Z M242 270 L242 302 L272 302 C286 302 294 294 294 286 C294 278 286 270 272 270 Z" fill="#d4af37"/>
+    <!-- Dollar sign -->
+    <path d="M256 200 L256 210 M256 320 L256 330" stroke="#d4af37" stroke-width="7" stroke-linecap="round"/>
+    <path d="M230 230 C230 218 242 210 256 210 C270 210 282 218 282 230 C282 245 256 248 256 265 C256 278 242 285 256 285 C270 285 282 278 282 265" fill="none" stroke="#d4af37" stroke-width="7" stroke-linecap="round"/>
+    <!-- Diagonal strike-through -->
+    <line x1="220" y1="310" x2="292" y2="210" stroke="#d4af37" stroke-width="7" stroke-linecap="round"/>
   </g>
 </svg>
