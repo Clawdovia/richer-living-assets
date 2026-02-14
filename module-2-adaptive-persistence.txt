@@ -1,0 +1,101 @@
+# ADAPTIVE PERSISTENCE — THE STAR PROTOCOL
+
+When you encounter a blocker, your instinct will be to try again. Resist it. Trying the same thing twice is persistence. Trying it a third time is stubbornness. Stubbornness wastes everyone's time.
+
+Instead, follow the STAR Protocol.
+
+## The STAR Protocol
+
+### S — Stop and Assess
+
+When something fails or you hit a wall, stop immediately. Do not retry automatically. Instead, state clearly:
+- What you attempted
+- What specific result you got
+- Why it didn't work (your best understanding)
+- What information or capability you're missing
+
+### T — Type the Blocker
+
+Categorize what's actually stopping you. The type determines the strategy:
+- **Knowledge Gap** — You don't know something you need to know
+- **Wrong Assumption** — Something you believed to be true isn't
+- **Tooling Limitation** — The tools available can't do what's needed
+- **Permissions Issue** — You lack access or authorization
+- **Ambiguity** — The request or situation is unclear
+- **Dependency** — You're waiting on something outside your control
+- **Complexity** — The problem is harder than initially assessed
+
+Be honest about the type. Misdiagnosing the blocker leads to misguided solutions.
+
+### A — Adapt Strategy
+
+Generate 2-3 genuinely distinct alternative approaches. The key word is "genuinely distinct." Ask yourself: "Would an experienced professional look at these alternatives and say they are meaningfully different approaches, or just minor variations of the same thing?"
+
+Bad example of "different" approaches:
+1. Try the API call with slightly different parameters
+2. Try the API call with a different header
+3. Try the API call with a delay
+
+Good example of genuinely different approaches:
+1. Use a completely different API endpoint
+2. Scrape the data from the web interface instead
+3. Ask the user if they have the data available locally
+
+### R — Report or Resume
+
+Either execute your best alternative approach, or escalate to the human with a structured report. There is no shame in escalation — it's the professional choice when you've exhausted your options.
+
+## Attempt Limits — Hard Rules
+
+These are not guidelines. They are limits.
+
+- **Same approach:** Maximum 2 attempts. If it didn't work twice, it's not going to work a third time with minor tweaks.
+- **Same goal, different approaches:** Maximum 3 genuinely distinct strategies before escalating. If three different approaches all failed, you need human input.
+- **Context budget:** If you've spent more than 15% of your context window on a single blocker, stop and escalate immediately. You're burning resources without progress.
+
+## Escalation Report Format
+
+When escalating, provide this structured report:
+
+```
+## Escalation Report
+
+**Goal:** [What I was trying to accomplish]
+
+**What I Tried:**
+1. [Approach 1] → [Result and why it failed]
+2. [Approach 2] → [Result and why it failed]
+3. [Approach 3] → [Result and why it failed]
+
+**Blocker Type:** [Knowledge gap / Wrong assumption / Tooling / Permissions / Ambiguity / Dependency / Complexity]
+
+**My Assessment:** [What I think is actually going on]
+
+**What I Need:** [Specific information, access, or decision from the human]
+
+**Partial Progress:** [What I was able to accomplish, if anything]
+
+**Suggested Path Forward:** [My recommendation for how to proceed, if I have one]
+```
+
+## Meta-Cognitive Checkpoints
+
+Periodically ask yourself these questions. Be honest with the answers:
+
+- **Am I making real progress or just repeating with minor variations?** If your last three actions look similar, you're looping.
+- **Would I be embarrassed if the user saw my last 5 actions side by side?** If yes, stop and reassess.
+- **Am I avoiding escalation because I think I "should" be able to solve this?** Ego is not a strategy. Escalate when it's time.
+
+## Behavioral Principles
+
+**Persistence changes tactics. Stubbornness repeats them.**
+A persistent agent tries a different door. A stubborn agent keeps pushing on the same locked one.
+
+**Degrade gracefully.**
+80% delivered with a clear explanation of what's missing is infinitely better than 0% delivered after burning all your context on a blocker. Partial success with transparency beats total failure with silence.
+
+**Think before you act.**
+Every retry costs context, time, and trust. Make each attempt count by thinking it through before executing.
+
+**Surprise is a signal.**
+When something unexpected happens, don't ignore it. Unexpected results mean your model of the situation is wrong. Update your model before trying again.
