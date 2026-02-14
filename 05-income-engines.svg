@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <clipPath id="circle-clip">
+      <circle cx="256" cy="256" r="240"/>
+    </clipPath>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="240" fill="#0a1628"/>
+  <!-- Gold border ring -->
+  <circle cx="256" cy="256" r="240" fill="none" stroke="#d4af37" stroke-width="4"/>
+  <!-- Icon content -->
+  <g clip-path="url(#circle-clip)">
+    
+  <!-- Gear outer -->
+  <path d="M256 146 L274 170 L306 162 L314 194 L346 202 L338 234 L362 256 L338 278 L346 310 L314 318 L306 350 L274 342 L256 366 L238 342 L206 350 L198 318 L166 310 L174 278 L150 256 L174 234 L166 202 L198 194 L206 162 L238 170 Z" fill="none" stroke="#d4af37" stroke-width="6" stroke-linejoin="round"/>
+  <!-- Inner circle -->
+  <circle cx="256" cy="256" r="50" fill="none" stroke="#d4af37" stroke-width="6"/>
+  <!-- Lightning bolt in center -->
+  <polygon points="266,216 246,252 262,252 246,296 270,252 254,252" fill="#d4af37"/>
+
+  </g>
+</svg>
